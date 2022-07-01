@@ -5,6 +5,7 @@ from sqlalchemy import Table, Column, SmallInteger, String, DateTime
 t_IdentityDocument = Table(
     "IdentityDocument",
     metadata,
+    Column('UUID',           String), # Идентификатор строки в базе    
     Column('DocN',           String), # Номер документа
     Column('DocS',           String), # Серия документа
     Column('DocumentName',   String), # Наименование документа (не используется для передачи в сервис)
