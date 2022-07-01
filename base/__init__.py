@@ -20,6 +20,11 @@ from .PersonWithIdentity import t_PersonWithIdentity
 """
 Таблица для сопоставления пациентов и списка его документов
 """
+from .MedicalStaff import t_MedicalStaff
+"""
+Комплексный тип MedicalStaff предназначен для передачи данных
+о медицинском работнике.
+"""
 
 
 
